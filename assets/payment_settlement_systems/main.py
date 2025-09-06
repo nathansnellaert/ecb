@@ -1,0 +1,17 @@
+from utils import save_state, upload_data
+from datetime import datetime
+from general import fetch_data
+
+def main():
+    data = fetch_data("PSS")
+    
+    if data.num_rows > 0:
+        upload_data(data, "payment_settlement_systems")
+        print(f"Uploaded {data.num_rows} rows to payment_settlement_systems")
+        
+    save_state("payment_settlement_systems", {
+        "last_updated": datetime.now().isoformat(),
+        "row_count": data.num_rows
+    })
+    
+    return data

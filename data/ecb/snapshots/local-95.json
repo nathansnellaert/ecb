@@ -1,0 +1,459 @@
+{
+  "dataset": "balance_payments_national",
+  "timestamp": "2025-08-29T15:49:53.439386",
+  "row_count": 41823,
+  "column_count": 20,
+  "memory_usage_mb": 22.91,
+  "columns": [
+    {
+      "name": "freq",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 1,
+      "sample_values": [
+        "Quarterly"
+      ]
+    },
+    {
+      "name": "ref_area",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 28,
+      "sample_values": [
+        "Austria",
+        "Belgium",
+        "Bulgaria",
+        "Cyprus",
+        "Czech Republic"
+      ]
+    },
+    {
+      "name": "adjustment",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 1,
+      "sample_values": [
+        "Neither seasonally nor working day adjusted"
+      ]
+    },
+    {
+      "name": "data_type_bop",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 4,
+      "sample_values": [
+        "Credit transactions",
+        "Net transactions",
+        "Outstanding amounts at the end of the period (stocks)",
+        "Debit transactions"
+      ]
+    },
+    {
+      "name": "bop_item",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 170,
+      "sample_values": [
+        "Current account, Goods",
+        "Current account, Services",
+        "Current account",
+        "Financial account, Direct investment, Other capital, Liabilities, inter-company lending",
+        "Financial account, General government, Gross external debt excluding direct investment"
+      ]
+    },
+    {
+      "name": "curr_brkdwn",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 1,
+      "sample_values": [
+        "All currencies"
+      ]
+    },
+    {
+      "name": "count_area",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 1,
+      "sample_values": [
+        "World (all entities)"
+      ]
+    },
+    {
+      "name": "series_denom",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 2,
+      "sample_values": [
+        "Euro",
+        "National currency"
+      ]
+    },
+    {
+      "name": "decimals",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 1,
+      "sample_values": [
+        "Zero"
+      ]
+    },
+    {
+      "name": "collection",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 2,
+      "sample_values": [
+        "Summed through period",
+        "End of period"
+      ]
+    },
+    {
+      "name": "unit_mult",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 1,
+      "sample_values": [
+        "Millions"
+      ]
+    },
+    {
+      "name": "bop_basis",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 1,
+      "sample_values": [
+        "Unspecified"
+      ]
+    },
+    {
+      "name": "compilation",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 1,
+      "sample_values": [
+        "Data converted using fixed exchange rates before accession to the euro area",
+        null
+      ]
+    },
+    {
+      "name": "unit",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 2,
+      "sample_values": [
+        "Euro",
+        "Croatian kuna"
+      ]
+    },
+    {
+      "name": "time_format",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 1,
+      "sample_values": [
+        "P3M"
+      ]
+    },
+    {
+      "name": "title_compl",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 499,
+      "sample_values": [
+        "Current account, Goods - Austria vis-a-vis World (all entities) - Credit transactions - Neither seasonally nor working day adjusted",
+        "Current account, Services - Austria vis-a-vis World (all entities) - Credit transactions - Neither seasonally nor working day adjusted",
+        "Current account - Austria vis-a-vis World (all entities) - Net transactions - Neither seasonally nor working day adjusted",
+        "Financial account, Direct investment, Other capital, Liabilities, inter-company lending - Austria vis-a-vis World (all entities) - Outstanding amounts at the end of the period (stocks) - Neither seasonally nor working day adjusted",
+        "Financial account, General government, Gross external debt excluding direct investment - Austria vis-a-vis World (all entities) - Outstanding amounts at the end of the period (stocks) - Neither seasonally nor working day adjusted"
+      ]
+    },
+    {
+      "name": "time_period",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 178,
+      "sample_values": [
+        "1995-Q1",
+        "1995-Q2",
+        "1995-Q3",
+        "1995-Q4",
+        "1996-Q1"
+      ]
+    },
+    {
+      "name": "obs_value",
+      "type": "double",
+      "nullable": true,
+      "null_count": 41823,
+      "min": -1021310.0,
+      "max": 7720414.2224350525,
+      "mean": 58394.2374,
+      "stddev": 363017.8581
+    },
+    {
+      "name": "obs_status",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 5,
+      "sample_values": [
+        "Normal value",
+        "Missing value; data exist but were not collected",
+        "Provisional value",
+        "Estimated value",
+        "Missing value; data cannot exist"
+      ]
+    },
+    {
+      "name": "obs_conf",
+      "type": "string",
+      "nullable": true,
+      "null_count": 41823,
+      "cardinality": 1,
+      "sample_values": [
+        "Free",
+        null
+      ]
+    }
+  ],
+  "sample_rows": [
+    {
+      "freq": "Quarterly",
+      "ref_area": "Austria",
+      "adjustment": "Neither seasonally nor working day adjusted",
+      "data_type_bop": "Credit transactions",
+      "bop_item": "Current account, Goods",
+      "curr_brkdwn": "All currencies",
+      "count_area": "World (all entities)",
+      "series_denom": "Euro",
+      "decimals": "Zero",
+      "collection": "Summed through period",
+      "unit_mult": "Millions",
+      "bop_basis": "Unspecified",
+      "compilation": "Data converted using fixed exchange rates before accession to the euro area",
+      "unit": "Euro",
+      "time_format": "P3M",
+      "title_compl": "Current account, Goods - Austria vis-a-vis World (all entities) - Credit transactions - Neither seasonally nor working day adjusted",
+      "time_period": "1995-Q1",
+      "obs_value": 10704.0,
+      "obs_status": "Normal value",
+      "obs_conf": "Free"
+    },
+    {
+      "freq": "Quarterly",
+      "ref_area": "Austria",
+      "adjustment": "Neither seasonally nor working day adjusted",
+      "data_type_bop": "Credit transactions",
+      "bop_item": "Current account, Goods",
+      "curr_brkdwn": "All currencies",
+      "count_area": "World (all entities)",
+      "series_denom": "Euro",
+      "decimals": "Zero",
+      "collection": "Summed through period",
+      "unit_mult": "Millions",
+      "bop_basis": "Unspecified",
+      "compilation": "Data converted using fixed exchange rates before accession to the euro area",
+      "unit": "Euro",
+      "time_format": "P3M",
+      "title_compl": "Current account, Goods - Austria vis-a-vis World (all entities) - Credit transactions - Neither seasonally nor working day adjusted",
+      "time_period": "1995-Q2",
+      "obs_value": 10635.0,
+      "obs_status": "Normal value",
+      "obs_conf": "Free"
+    },
+    {
+      "freq": "Quarterly",
+      "ref_area": "Austria",
+      "adjustment": "Neither seasonally nor working day adjusted",
+      "data_type_bop": "Credit transactions",
+      "bop_item": "Current account, Goods",
+      "curr_brkdwn": "All currencies",
+      "count_area": "World (all entities)",
+      "series_denom": "Euro",
+      "decimals": "Zero",
+      "collection": "Summed through period",
+      "unit_mult": "Millions",
+      "bop_basis": "Unspecified",
+      "compilation": "Data converted using fixed exchange rates before accession to the euro area",
+      "unit": "Euro",
+      "time_format": "P3M",
+      "title_compl": "Current account, Goods - Austria vis-a-vis World (all entities) - Credit transactions - Neither seasonally nor working day adjusted",
+      "time_period": "1995-Q3",
+      "obs_value": 10202.0,
+      "obs_status": "Normal value",
+      "obs_conf": "Free"
+    },
+    {
+      "freq": "Quarterly",
+      "ref_area": "Austria",
+      "adjustment": "Neither seasonally nor working day adjusted",
+      "data_type_bop": "Credit transactions",
+      "bop_item": "Current account, Goods",
+      "curr_brkdwn": "All currencies",
+      "count_area": "World (all entities)",
+      "series_denom": "Euro",
+      "decimals": "Zero",
+      "collection": "Summed through period",
+      "unit_mult": "Millions",
+      "bop_basis": "Unspecified",
+      "compilation": "Data converted using fixed exchange rates before accession to the euro area",
+      "unit": "Euro",
+      "time_format": "P3M",
+      "title_compl": "Current account, Goods - Austria vis-a-vis World (all entities) - Credit transactions - Neither seasonally nor working day adjusted",
+      "time_period": "1995-Q4",
+      "obs_value": 10713.0,
+      "obs_status": "Normal value",
+      "obs_conf": "Free"
+    },
+    {
+      "freq": "Quarterly",
+      "ref_area": "Austria",
+      "adjustment": "Neither seasonally nor working day adjusted",
+      "data_type_bop": "Credit transactions",
+      "bop_item": "Current account, Goods",
+      "curr_brkdwn": "All currencies",
+      "count_area": "World (all entities)",
+      "series_denom": "Euro",
+      "decimals": "Zero",
+      "collection": "Summed through period",
+      "unit_mult": "Millions",
+      "bop_basis": "Unspecified",
+      "compilation": "Data converted using fixed exchange rates before accession to the euro area",
+      "unit": "Euro",
+      "time_format": "P3M",
+      "title_compl": "Current account, Goods - Austria vis-a-vis World (all entities) - Credit transactions - Neither seasonally nor working day adjusted",
+      "time_period": "1996-Q1",
+      "obs_value": 10889.0,
+      "obs_status": "Normal value",
+      "obs_conf": "Free"
+    },
+    {
+      "freq": "Quarterly",
+      "ref_area": "Austria",
+      "adjustment": "Neither seasonally nor working day adjusted",
+      "data_type_bop": "Credit transactions",
+      "bop_item": "Current account, Goods",
+      "curr_brkdwn": "All currencies",
+      "count_area": "World (all entities)",
+      "series_denom": "Euro",
+      "decimals": "Zero",
+      "collection": "Summed through period",
+      "unit_mult": "Millions",
+      "bop_basis": "Unspecified",
+      "compilation": "Data converted using fixed exchange rates before accession to the euro area",
+      "unit": "Euro",
+      "time_format": "P3M",
+      "title_compl": "Current account, Goods - Austria vis-a-vis World (all entities) - Credit transactions - Neither seasonally nor working day adjusted",
+      "time_period": "1996-Q2",
+      "obs_value": 10929.0,
+      "obs_status": "Normal value",
+      "obs_conf": "Free"
+    },
+    {
+      "freq": "Quarterly",
+      "ref_area": "Austria",
+      "adjustment": "Neither seasonally nor working day adjusted",
+      "data_type_bop": "Credit transactions",
+      "bop_item": "Current account, Goods",
+      "curr_brkdwn": "All currencies",
+      "count_area": "World (all entities)",
+      "series_denom": "Euro",
+      "decimals": "Zero",
+      "collection": "Summed through period",
+      "unit_mult": "Millions",
+      "bop_basis": "Unspecified",
+      "compilation": "Data converted using fixed exchange rates before accession to the euro area",
+      "unit": "Euro",
+      "time_format": "P3M",
+      "title_compl": "Current account, Goods - Austria vis-a-vis World (all entities) - Credit transactions - Neither seasonally nor working day adjusted",
+      "time_period": "1996-Q3",
+      "obs_value": 10729.0,
+      "obs_status": "Normal value",
+      "obs_conf": "Free"
+    },
+    {
+      "freq": "Quarterly",
+      "ref_area": "Austria",
+      "adjustment": "Neither seasonally nor working day adjusted",
+      "data_type_bop": "Credit transactions",
+      "bop_item": "Current account, Goods",
+      "curr_brkdwn": "All currencies",
+      "count_area": "World (all entities)",
+      "series_denom": "Euro",
+      "decimals": "Zero",
+      "collection": "Summed through period",
+      "unit_mult": "Millions",
+      "bop_basis": "Unspecified",
+      "compilation": "Data converted using fixed exchange rates before accession to the euro area",
+      "unit": "Euro",
+      "time_format": "P3M",
+      "title_compl": "Current account, Goods - Austria vis-a-vis World (all entities) - Credit transactions - Neither seasonally nor working day adjusted",
+      "time_period": "1996-Q4",
+      "obs_value": 12067.0,
+      "obs_status": "Normal value",
+      "obs_conf": "Free"
+    },
+    {
+      "freq": "Quarterly",
+      "ref_area": "Austria",
+      "adjustment": "Neither seasonally nor working day adjusted",
+      "data_type_bop": "Credit transactions",
+      "bop_item": "Current account, Goods",
+      "curr_brkdwn": "All currencies",
+      "count_area": "World (all entities)",
+      "series_denom": "Euro",
+      "decimals": "Zero",
+      "collection": "Summed through period",
+      "unit_mult": "Millions",
+      "bop_basis": "Unspecified",
+      "compilation": "Data converted using fixed exchange rates before accession to the euro area",
+      "unit": "Euro",
+      "time_format": "P3M",
+      "title_compl": "Current account, Goods - Austria vis-a-vis World (all entities) - Credit transactions - Neither seasonally nor working day adjusted",
+      "time_period": "1997-Q1",
+      "obs_value": 11856.0,
+      "obs_status": "Normal value",
+      "obs_conf": "Free"
+    },
+    {
+      "freq": "Quarterly",
+      "ref_area": "Austria",
+      "adjustment": "Neither seasonally nor working day adjusted",
+      "data_type_bop": "Credit transactions",
+      "bop_item": "Current account, Goods",
+      "curr_brkdwn": "All currencies",
+      "count_area": "World (all entities)",
+      "series_denom": "Euro",
+      "decimals": "Zero",
+      "collection": "Summed through period",
+      "unit_mult": "Millions",
+      "bop_basis": "Unspecified",
+      "compilation": "Data converted using fixed exchange rates before accession to the euro area",
+      "unit": "Euro",
+      "time_format": "P3M",
+      "title_compl": "Current account, Goods - Austria vis-a-vis World (all entities) - Credit transactions - Neither seasonally nor working day adjusted",
+      "time_period": "1997-Q2",
+      "obs_value": 13117.0,
+      "obs_status": "Normal value",
+      "obs_conf": "Free"
+    }
+  ]
+}
